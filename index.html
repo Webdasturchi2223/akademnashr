@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:image" content="https://figma-akademnashr.netlify.app/img/favicon.svg">
-    <meta name="author" content="Akademnashr">
+    <meta name="author" content="Qudratulloh Uz">
     <meta name="description" content="Dasturlash asoslariga oid o‘zbek tilidagi ilk eng mukammal qo‘llanma. Kitobning har bir bo‘limi uchun maxsus video darslar yozilgan bo‘lib, ularga kitobda ko‘rsatilgan QR kod orqali o‘tish mumkin.">
     <title>Akademnashr</title>
     <link rel="stylesheet" href="./css/style.css">
@@ -15,8 +15,6 @@
 </head>
 
 <body>
-
-    <div class="br"></div>
 
     <!-- navbar start -->
 
@@ -33,10 +31,10 @@
         </div>
 
         <ul class="mobile__list">
-            <li class="mobile__item"><a href="#" class="nav__link menu-active">Bosh sahifa</a></li>
-            <li class="mobile__item"><a href="#" class="nav__link">Kitoblar</a></li>
-            <li class="mobile__item"><a href="#" class="nav__link">Aksiyalar</a></li>
-            <li class="mobile__item"><a href="#" class="nav__link">Kontaktlar</a></li>
+            <li class="mobile__item"><a href="#home" class="nav__link menu-active">Bosh sahifa</a></li>
+            <li class="mobile__item"><a href="#books" class="nav__link">Kitoblar</a></li>
+            <li class="mobile__item"><a href="#action" class="nav__link">Aksiyalar</a></li>
+            <li class="mobile__item"><a href="#contact" class="nav__link">Kontaktlar</a></li>
         </ul>
 
     </div>
@@ -51,13 +49,13 @@
             </a>
 
             <ul class="nav__list">
-                <li class="nav__item"><a href="#" class="nav__link active">Bosh sahifa</a></li>
-                <li class="nav__item"><a href="#" class="nav__link">Kitoblar</a></li>
-                <li class="nav__item"><a href="#" class="nav__link">Aksiyalar</a></li>
-                <li class="nav__item"><a href="#" class="nav__link">Kontaktlar</a></li>
+                <li class="nav__item"><a href="#home" class="nav__link active">Bosh sahifa</a></li>
+                <li class="nav__item"><a href="#books" class="nav__link">Kitoblar</a></li>
+                <li class="nav__item"><a href="#action" class="nav__link">Aksiyalar</a></li>
+                <li class="nav__item"><a href="#contact" class="nav__link">Kontaktlar</a></li>
             </ul>
 
-            <a href="#" class="btn nav__btn">Ro’yxatdan o’tish</a>
+            <a href="#contact" class="btn nav__btn">Ro’yxatdan o’tish</a>
 
             <div class="menu">
                 <div class="burger"></div>
@@ -73,7 +71,7 @@
 
     <!-- hero start -->
 
-    <div class="hero">
+    <div class="hero" id="home">
 
         <div class="container hero__container">
 
@@ -81,13 +79,13 @@
 
                 <span class="line hero__line"></span>
 
-                <h1 class="hero__title">Pythonda dasturlash asoslari</h1>
+                <h2 class="hero__title">Pythonda dasturlash asoslari</h2>
 
                 <p class="hero__text">Dasturlash asoslariga oid o‘zbek tilidagi ilk eng mukammal qo‘llanma. Kitobning
                     har bir bo‘limi uchun maxsus video darslar yozilgan bo‘lib, ularga kitobda ko‘rsatilgan QR kod
                     orqali o‘tish mumkin.</p>
 
-                <a href="#" class="btn">Buyurtma berish</a>
+                <a href="#contact" class="btn">Buyurtma berish</a>
 
             </div>
 
@@ -104,7 +102,7 @@
 
     <!-- books start -->
 
-    <div class="books">
+    <div class="books" id="books">
 
         <div class="container books__container">
 
@@ -180,7 +178,7 @@
 
     <!-- action start -->
 
-    <div class="action">
+    <div class="action" id="action">
 
         <div class="container action__container">
 
@@ -192,7 +190,7 @@
 
                 <p class="action__text">Aksiyadagi eng katta to’plamda <strong>50 ta kitob</strong>ni <strong>350 ming</strong> so’mga (aslida 383 ming so’m) sotib olishingiz mumkin.</p>
 
-                <a href="#" class="btn action__btn">Buyurtma berish</a>
+                <a href="#contact" class="btn action__btn">Buyurtma berish</a>
 
             </div>
 
@@ -214,7 +212,7 @@
 
         <div class="container footer__container">
 
-            <div class="footer-top">
+            <div class="footer-top" id="contact">
 
                 <a href="./index.html" class="footer__logo">
 
@@ -226,15 +224,15 @@
 
                 <div class="footer__icons">
                     
-                    <a href="https://t.me/Webdasturchi_2223" class="icon__link">
+                    <a href="https://t.me/quadrodev" class="icon__link">
                         <i class="fab fa-telegram"></i>
                     </a>
 
-                    <a href="#" class="icon__link">
-                        <i class="fab fa-facebook"></i>
+                    <a href="https://qudratulloh.vercel.app" class="icon__link">
+                        <i class="fas fa-globe"></i>
                     </a>
 
-                    <a href="#" class="icon__link">
+                    <a href="https://instagram.com/qudratullohuz" class="icon__link">
                         <i class="fab fa-instagram"></i>
                     </a>
 
